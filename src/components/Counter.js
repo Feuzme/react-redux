@@ -49,7 +49,7 @@ export default function Counter() {
                 type="number" />
             <br />
             <button onClick={addToCartFunc}>Ajouter au panier</button>
-            {imgUrl && <img style={{width:"300px"}} src={imgUrl}/>}
+            {imgUrl && <img style={{width:"300px"}} src={imgUrl} alt="cat"/>}
         </div>
     )
 }
